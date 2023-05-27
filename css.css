@@ -1,0 +1,52 @@
+body {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+  }
+  
+  .image {
+    width: 350px;
+    opacity: 0.75;
+  }
+  
+  .instructions {
+    position: absolute; 
+    right: 0; 
+    left: 0;
+    z-index: 0;
+  }
+  
+  .ui {
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .quest-ui {
+    background: rgba(255, 255, 255, 0.884);
+    padding: 20px 20px;
+    width: 300px;
+    z-index: 2;
+  }
+  
+  .quest-title {
+    font-size: 3em;
+    color: rgb(2, 121, 233);
+  }
+  
+  .quest-text-title {
+    font-size: 3em;
+    color: rgb(2, 121, 233);
+    padding-bottom: 10px;
+  }
+  
+  .quest-text {
+    font-size: 1em;
+    color: rgb(2, 121, 233);
+  }
